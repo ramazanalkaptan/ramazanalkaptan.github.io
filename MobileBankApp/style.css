@@ -1,0 +1,14 @@
+.mains{
+    background-color: rgb(37, 42, 138);
+}
+.usermes,.loginmes{
+    display: none;
+    color: red;
+    font-size: 12px;
+}
+.option-w{
+    width: 200px;
+}
+.process_mes{
+    font-size: 12px;
+}
