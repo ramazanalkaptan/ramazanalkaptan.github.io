@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(0, 0, 0);
+  }
+  
+  img{
+    max-width: 100%;
+  }
+  .footer{
+    margin: auto;
+    width: 70%;
+  }
+  hr{
+  border: 4px solid rgb(69, 64, 64);
+}
+  ul{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  ul li{
+    list-style: none;
+    margin-top: .8rem;
+  }
+  
+  ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul li a:hover{
+    color: white;
+  }
+  
+  
+  .header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) , url("img/arkaplan.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .header-row{
+    height: 80vh;
+  }
+.headerh1{
+  font-size: 60px;
+}
+.headerbutton{
+  height: 56px;
+  width: 200px;
+}
+  /*!SORU -CEVAP*/
+  .accordion-item{
+    border: none;
+  }
+  .accordion-button{
+    background-color: rgb(55, 55, 55);
+    margin-top: 1rem;
+    color: white;  
+  }
+  
+  .accordion-button:not(.collapsed){
+    background-color: rgb(55, 55, 55);
+    color: white;
+  }
+  
+  .accordion-button:focus{
+    box-shadow: none;
+  }
+/* browse */
+.high{
+  min-height: calc(100vh - 44px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .browse-container{
+    width: 60%;
+    background-color: rgb(19, 19, 19);
+    padding: 10px;
+    margin-bottom: 44px;
+  }
+  .browse-button{
+    width: 400px;
+    height: 50px;
+  }
+
+/* browse-index */
+.button-radius{
+  border-radius: 6px !important;
+}
+.nav-link{
+  color: whitesmoke;
+}
+.browse-logo{
+  height: 14px;
+}
+.nav-link:hover{
+  color: whitesmoke !important;
+}
+.browse-form{
+  margin-right: 9rem;
+}
+.browse-dropdown{
+  border: 1px solid rgb(69, 64, 64);
+}
+.browse-index{
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) , url("img/arkaplan.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.browse-index-bottom{
+  background-color: rgb(33, 31, 31);
+}
+
+.hover-effect{
+  border-radius: 4px 4px 0 0;
+}
+
+.hover-effect:hover{
+  border: 2px solid #fff;
+}
+/* login */
+.login{
+  height: 600px;
+}
+.login-container{
+  width: 100%;
+  max-width: 400px;
+}
+.login-row{
+  height: 86vh;
+}
+.form-height{
+  height: 450px;
+  background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4));
+}
+.login-button{
+  width: 100%;
+}
+.form-widht{
+  padding: 2rem;
+  
+}
+.inp-bg{
+  background-color: rgba(85, 82, 82, .6);
+  border-color: rgba(52, 50, 50, .6);
+}
